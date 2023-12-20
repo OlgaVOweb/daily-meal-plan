@@ -6,7 +6,7 @@ const MyMealsAndIngredients = ({selectedDay, updateDay}) => {
         })
     }
 
-    if (!selectedDay) return <p>Составь свой план блюд!</p>
+    if (!selectedDay) return <p className="if">Нажми добавить, затем на появившийся блок меню дня</p>
 
     return <div>
             <input
