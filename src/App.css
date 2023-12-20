@@ -9,7 +9,7 @@ h1 {
   background-color: rgb(149, 178, 187);
   border-radius: 20px;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .button-add {
@@ -18,7 +18,7 @@ h1 {
   padding: 5px 15px;
   border-radius: 20px;
   border: none;
-  font-size: 17px;
+  font-size: 15px;
   margin: 12px 0 12px auto;
   font-weight: bold;
 }
@@ -88,4 +88,10 @@ p {
 
 .container {
   display: flex;
+}
+
+@media all and (max-width: 500px){
+    body{
+      background-repeat: repeat;
+    }
 }
