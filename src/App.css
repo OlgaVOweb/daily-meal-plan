@@ -1,38 +1,91 @@
+body {
+  background-image: url(food.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(149, 178, 187);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.button-add {
+  font-family: 'Montserrat', sans-serif;
+  background-color: chartreuse;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 17px;
+  margin: 12px 0 12px auto;
+  font-weight: bold;
+}
+
+.button-delete {
+  font-family: 'Montserrat', sans-serif;
+  background: none;
+  border: 0;
+  font-size: 12px;
+  color: rgb(177, 15, 77);
+  font-weight: bold;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-self: center;
+  width: 350px;
+}
+.cont {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 15px;
+}
+.myInput {
+  height: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.myInput, textarea {
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  width: 320px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+textarea {
+  border: 1px solid #ddd;
+  height: 50px;
+}
+
+.selected {
+  background-color:chartreuse;
+}
+
+.default {
+  background-color: rgb(248, 246, 119);
+}
+
+p {
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.field {
+  color: rgb(7, 31, 6);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
+  min-height: 12px;
+}
+
+.container {
+  display: flex;
 }
