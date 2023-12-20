@@ -72,10 +72,12 @@ textarea {
   background-color: rgb(248, 246, 119);
 }
 
-p {
+.if {
   color: aliceblue;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  background: rgb(32, 31, 31);
+  text-align: center;
 }
 
 .field {
