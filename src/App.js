@@ -16,7 +16,7 @@ function App() {
   
   const addMeal = () => {
     const newMeal = {
-      title: "День недели",
+      title: "Меню дня ",
       id: uuid(),
       mealForADay: "",
       ingredients: ""
