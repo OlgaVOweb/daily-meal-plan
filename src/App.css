@@ -95,6 +95,6 @@ textarea {
 
 @media all and (max-width: 500px){
     body{
-      background-repeat: repeat;
+      height: 100%;
     }
 }
