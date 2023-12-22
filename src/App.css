@@ -2,6 +2,8 @@ body {
   background-image: url(food.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
 }
 
 h1 {
@@ -91,10 +93,4 @@ textarea {
 
 .container {
   display: flex;
-}
-
-@media all and (max-width: 500px){
-    body{
-      background-repeat: repeat;
-    }
 }
